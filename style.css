@@ -1,0 +1,72 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: #DBD56E;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#title_heading{
+    background-color: #66D7D1;
+    height: 70px;
+    width: 100%;
+    font-size: 40px;
+    line-height: 70px; /* Vertically center the text using line-height */  
+    text-align: center;
+}
+img{
+    height:150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    object-fit: cover; /* just to fit image inside the circle/or just to get clear image */
+}
+img:hover,button:hover{
+    transform:translateZ(10px);
+    box-shadow: 4px 4px 20px #e90e48;
+    cursor: pointer;
+}
+#opt{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 100px;
+    justify-content: center;
+}
+#score{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    margin-top: 50px;
+}
+
+button{
+    height: 50px;
+    width: 120px;
+    font-size: 19px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 10px;
+    background-color: #403D58;
+    color: white;
+    margin-top: 50px;
+}
+#user,#computer{
+    gap:10px;
+}
+#turn{
+    background-color: #FC7753;
+    height: 50px;
+    line-height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
